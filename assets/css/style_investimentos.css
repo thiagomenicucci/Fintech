@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(3, 15, 86);
+    color: #fff;
+    font-family: Max Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.parte_interativa {
+    padding: 0; /*Remover o espaço que tava dando entre o h1 e configurações iniciais */
+}
+.navigation_menu {
+    display: none;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    background-repeat: no-repeat;
+    
+}
+
+div {
+    padding-left: 10%;
+    padding-bottom: 2px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 30px;
+    
+}
+
+#investment {
+    background-color: #e8e8e8;
+    margin-top: 45px;
+    margin-left: 200px;
+    border-radius: 1%;
+    width: 700px;
+}
+
+.img_notification {
+    background-image: url(../images/Investimentos/finances.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.carteira {
+    background-color: black;
+    color: #fff;
+    margin-top: 150px;
+    padding: 35px;
+    text-align: center;
+    font-size: 30px;    
+}
+.mudar_pagina {
+    color: #fff;
+}
+
+.interactive:hover {
+    background-color:rgb(91, 115, 253);
+}

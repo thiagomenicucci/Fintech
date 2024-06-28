@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(3, 15, 86);
+    color: #fff;
+    font-family: Max Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.parte_interativa {
+    padding: 0; /*Remover o espaço que tava dando entre o h1 e configurações iniciais */
+}
+.navigation_menu {
+    display: none;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    background-repeat: no-repeat;
+    
+}
+
+div {
+    padding-left: 10%;
+    padding-bottom: 2px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 30px;    
+}
+
+.interactive:hover {
+    background-color:rgb(91, 115, 253);
+}
+
+.img_settings{
+    background-image: url(../images/Página\ Inicial/settings.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_sync {
+    background-image: url(../images/Página\ Inicial/sync.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_safety {
+    background-image: url(../images/Página\ Inicial/safety.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_notification {
+    background-image: url(../images/Página\ Inicial/notification.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_tc {
+    background-image: url(../images/Página\ Inicial/tc.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_faq {
+    background-image: url(../images/Página\ Inicial/faq.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+hr {
+    border-color: white;
+    border-style: solid;
+}
+
+.pagina_despesas {
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;    
+}
+
+.despesas {
+    color: #fff;
+}

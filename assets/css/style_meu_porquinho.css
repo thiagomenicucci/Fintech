@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(3, 15, 86);
+    color: #fff;
+    font-family: Max Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.parte_interativa {
+    padding: 0; /*Remover o espaço que tava dando entre o h1 e configurações iniciais */
+}
+.navigation_menu {
+    display: none;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    background-repeat: no-repeat;
+    
+}
+
+div {
+    padding-left: 10%;
+    padding-bottom: 2px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 30px;
+    
+}
+
+.img_savings{
+    background-image: url(../images/Meus\ investimentos/savings.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_checklist {
+    background-image: url(../images/Meus\ investimentos/checklist.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_handshake {
+    background-image: url(../images/Meus\ investimentos/handshake.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_finances {
+    background-image: url(../images/Meus\ investimentos/finances.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.img_lightbulb {
+    background-image: url(../images/Meus\ investimentos/lightbulb.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+hr {
+    border-color: white;
+    border-style: solid;
+}
+
+.pagina_investimentos {
+    background-color: black;
+    padding: 65px;
+    text-align: center;
+    font-size: 30px;    
+}
+
+.investimentos {
+    color: #fff;
+}
+
+.interactive:hover {
+    background-color:rgb(91, 115, 253);
+}
